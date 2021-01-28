@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <ul class="topUser">
+        <span class="usericon">
+          <i class="zoom fa fa-bell" aria-hidden="true"></i>
+          <i class="zoom fa fa-envelope" aria-hidden="true"></i>
+          <i class="avatar-i" aria-hidden="true"><img class="avatar fa zoom" src="https://demos.creative-tim.com/argon-dashboard/assets/img/theme/team-4.jpg" alt=""></i><span class="zoom avatar-span">Saurav Kumar</span>
+      </span>
+      <div class="toggle" onclick="toMenu()"></div>
+      </ul>
+      <nav class="sideNav">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+              <span class="title">Personal Info</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+              <span class="title">Job Location</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-gear" aria-hidden="true"></i></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+              <span class="title">Help us</span>
+            </a>
+          </li>
+      
+        </ul>
+      </nav>
+    
+    <script text="text\javascript">
+      function toMenu(){
+        let sideNav = document.querySelector('.sideNav');
+        sideNav.classList.toggle('active');
+      }
+       </script>
+    
+    </body>
+    </html>
+    
